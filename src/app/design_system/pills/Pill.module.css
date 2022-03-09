@@ -1,0 +1,27 @@
+.outerBorder {
+  border: 1px solid #d9d9d9;
+  display: flex;
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+.outerBorder li {
+  padding: 0.5rem 0.75rem;
+  border-right: 1px solid #d9d9d9;
+  list-style: none;
+}
+
+.outerBorder li:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.outerBorder > *:last-child {
+  border-right: none;
+}
+
+.active_selection {
+  background-color: #2196f3;
+  color: #ffff;
+}

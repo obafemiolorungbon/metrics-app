@@ -1,0 +1,14 @@
+.buttonMainPage {
+  border: none;
+  width: 20vh;
+  height: 7vh;
+  border-radius: 10vh;
+  font-size: 2.4vh;
+  text-transform: uppercase;
+  color: #8744dc;
+  cursor: pointer;
+  transition: 1s;
+}
+.buttonMainPage:hover {
+  transform: scale(1.2);
+}

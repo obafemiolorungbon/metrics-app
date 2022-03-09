@@ -1,0 +1,13 @@
+.reportingHR {
+  width: 70%;
+  height: 1px;
+  background-color: #eff1f4;
+  color: #eff1f4;
+}
+
+.reportingWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
