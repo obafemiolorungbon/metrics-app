@@ -5,10 +5,12 @@ export const Pills = ({ options, selected, handleSelection }) => {
     <div className={styles.outerBorder}>
       {options.map((option, index) => (
         <li
-          className={selected === option.name ? styles.active_selection : ""}
+          className={
+            selected.name === option.name ? styles.active_selection : ""
+          }
           selected
           key={index}
-          onClick={() => handleSelection(option.name)}
+          onClick={() => handleSelection(option)}
         >
           {option.name}
         </li>

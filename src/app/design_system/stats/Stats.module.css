@@ -93,7 +93,7 @@ p {
   width: 50%;
 }
 
-.leftReportingStats:nth-child(3) {
+.leftReportingStats div:nth-child(3) {
   color: #a0b0b9;
 }
 .reports {
@@ -108,19 +108,59 @@ p {
 }
 .reports_numbers span:nth-of-type(1) {
   margin-right: 0.5rem;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .reports_numbers span:nth-of-type(2) {
   margin-right: 0.5rem;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
 }
 .pill {
   display: inline-block;
-  background-color: red;
+  background-color: #8bc34a;
   border-radius: 0.75rem;
   padding: 0.1rem 0.5rem;
   color: #fff;
+}
+.pill_negative {
+  display: inline-block;
+  background-color: #ff6a67;
+  border-radius: 0.75rem;
+  padding: 0.1rem 0.5rem;
+  color: #fff;
+}
+
+.mainHeader,
+.subHeader {
+  font-weight: 600;
+  font-size: 16px;
+}
+.mainHeaderCTR {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff6a67;
+}
+.greyedText {
+  color: #a0b0b9;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.helpText {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.helpSubText {
+  color: #2196f3;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.helpSubText:hover {
+  text-decoration: underline;
 }
